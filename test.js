@@ -1,8 +1,12 @@
 function output(text, color) {
-  var p = document.createElement("p");
-  p.innerHTML = text;
-  p.style.color = color;
-  document.body.appendChild(p);
+  try {
+    var p = document.createElement("p");
+    p.innerHTML = text;
+    p.style.color = color;
+    document.body.appendChild(p);
+  } catch(e) {
+    WScript.Echo(color + ": " + text);
+  }
 }
 
 function assert(message, expr) {
