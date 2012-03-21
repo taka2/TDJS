@@ -1,6 +1,6 @@
 Date.prototype.strftime = (function() {
   function strftime(format) {
-    var data = this;
+    var date = this;
     
     return (format + "").replace(/%([a-zA-Z])/g, 
     
