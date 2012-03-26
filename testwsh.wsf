@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<package>
-  <job>
-    <script language="JScript" src="test.js"></script>
-    <script language="JScript" src="strftime.js"></script>
-    <script language="JScript" src="strftime_test.js"></script>
-  </job>
-</package>
